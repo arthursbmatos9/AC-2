@@ -10,6 +10,6 @@ ori $s0, $t0, 0xFFFF #x = FFFFFFFF
 ori $t0, $zero, 0x493E 
 sll $s1, $t0, 4 #y = 300.000
 
-sll $t0, $s1, 16 #t0 = 4y
+sll $t0, $s1, 2 #t0 = 4y
 
 sub $s2, $s0, $t0 #z = x - 4y
